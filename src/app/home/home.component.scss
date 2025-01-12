@@ -1,0 +1,14 @@
+.clean-tech {
+  background-image: (url('../../../public/abstract.jpg'));
+  background-size: cover;
+}
+
+.responsive-div {
+  width: 500px; /* Default width for larger screens */
+}
+
+@media (max-width: 768px) {
+  .responsive-div {
+    width: 250px; /* Width for mobile screens */
+  }
+}
