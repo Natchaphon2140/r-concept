@@ -100,9 +100,9 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "repo": "https://github.com/<username>/<repo-name>.git",
+            "repo": "https://github.com/Natchaphon2140/r-concept.git",
             "branch": "gh-pages",
-            "dir": "dist/<app-name>/browser"          // Specify the build path for deployment
+            "dir": "dist/r-concept/browser"
           }
         }
       }
