@@ -11,6 +11,6 @@ export class HomeComponent {
   constructor(private router: Router) {}
 
   goToPrivacy() {
-    this.router.navigate(['/privacy']);
+    this.router.navigate(['/privacy-policy']);
   }
 }

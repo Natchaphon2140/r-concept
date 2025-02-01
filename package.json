@@ -6,8 +6,8 @@
     "start": "ng serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build": "ng build --base-href /<repo-name>/",
-    "deploy": "ng deploy"
+    "build": "ng build --base-href  https://rconcept.dev/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/r-concept/browser"
   },
   "private": true,
   "dependencies": {

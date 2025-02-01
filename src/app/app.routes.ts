@@ -6,20 +6,20 @@ import { PrivacyComponent } from './privacy/privacy.component';
 export const routes: Routes = [
   {
     component: HomeComponent,
-    path: 'home',
+    path: '',
   },
   {
     component: PrivacyComponent,
-    path: 'privacy',
+    path: 'privacy-policy',
   },
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '',
     pathMatch: 'full', // Redirects to 'home' when the URL is empty
   },
 
   {
     path: '**',
-    redirectTo:'home' , // Wildcard route to handle unmatched paths
+    redirectTo:'' , // Wildcard route to handle unmatched paths
   }
 ];

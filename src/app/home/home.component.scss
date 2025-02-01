@@ -1,6 +1,9 @@
 .clean-tech {
   background-image: (url('../../../public/abstract.jpg'));
-  background-size: cover;
+  // background-size: cover;
+  background-position: center; // Center the image
+  background-repeat: no-repeat; // Prevent the image from repeating
+
 }
 
 .responsive-div {
