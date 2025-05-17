@@ -27,6 +27,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/app-ads.txt",
+              "src/ads.txt",
               {
                 "glob": "**/*",
                 "input": "public"
